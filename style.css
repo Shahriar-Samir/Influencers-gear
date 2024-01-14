@@ -10,7 +10,7 @@
 /* styling in 1280px width*/
 
 /* no bars */
-.bars,.cart{
+.navbar .bars,.navbar .cart{
     display: none;
 }
 
@@ -251,10 +251,30 @@
       margin-top: 6.25em;
 }
 
+.social-icons{
+    display: flex;
+    gap: 1em;
+}
+
+.review .star{
+  width: 20px;
+}
+.review{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rate{
+    margin-left: 0.5em;
+}
+
 /* footer styling ends from here */
 
 
 @media screen and (max-width:768px){
+    .bars,.cart{
+        display: none;
+    }
     .main-banner{
         flex-direction: column-reverse;
     }
