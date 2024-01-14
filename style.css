@@ -99,6 +99,7 @@
     font-size: 1rem;
     padding: 1em 2em;
     border: none;
+    cursor: pointer;
 }
 
 /* main banner section styling ends here */
@@ -229,6 +230,7 @@
     color: #FFF;
     border: 0;
     padding: 1em 1.3em;
+    cursor: pointer;
 }
 
 /* featured section styling ends here */
